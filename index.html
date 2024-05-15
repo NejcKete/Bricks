@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="./scripts/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<title>The Bricks</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="top">
+		
+	</div>
+	<div id="mid">
+		<div id="dela">
+			<canvas id="canvas" width="600" height="600">
+				<img src="pictures/blue.jpg" alt="" id="image">
+				<img src="pictures/red.jpg" alt="" id="image2">
+			</canvas>
+			<div id="center">
+				<div id="cssrwos" class="top-vpis">
+					<label for="rows">Rows:</label>
+					<input type="text" id="rows" name="rows" value="5">
+				</div>
+				<div id="csscols" class="top-vpis">
+					<label for="lname">Columns:</label>
+					<input type="text" id="cols" name="cols" value="5">
+				</div>
+				<div id="cssbtn" class="top-vpis">
+					<button id="button" onclick="start()">Button</button>
+					
+				</div>
+				<div id="points" class="top-vpis">
+					<p>Points: <mark id="tocke">0</mark> | Time: <mark id="cas">0</mark></p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="bottom">
+	</div>
+</body>
+</html>

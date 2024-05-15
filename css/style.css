@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: large;
+}
+html, body{
+	/*background-image: url("./../pictures/blocks.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover ;
+	height: 100%;
+}
+#top{
+	height: 20%;
+}
+#center{
+	height: 90%;
+	display: inline-block;
+	border: #1A202C 1px solid	;
+	border-radius: 10px;
+	background-color: rgba(red, green, blue, 0.5);
+	margin-left: 1%;
+	padding: 1%;
+
+}
+#cssrwos{
+	margin-left: -9%;
+}
+.top-vpis{
+	height: 33%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+		
+}
+input{
+	height: 20%;
+	border-radius: 7px;
+	border: 0px;
+	padding-left: 5%;
+}
+#cssbtn{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#mid{
+	height: 60%;
+	
+}
+#dela{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	height: 100%;
+}
+
+#bottom{	
+	height: 20%;
+}
+#canvas{
+	display: inline-block;
+	border: solid 1px;
+	border-radius: 10px;
+}
+
+#button {
+    width: 59%;
+    height: 20%;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+mark{
+	background-color: transparent;
+}
+#points{
+	height: 4%;
+	font-weight: bold;
+	font-size: large;
+}
