@@ -5,7 +5,7 @@
 	font-size: large;
 }
 html, body{
-	/*background-image: url("./../pictures/blocks.jpg");*/
+	background-image: url("./../pictures/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover ;
 	height: 100%;
@@ -38,6 +38,7 @@ input{
 	border-radius: 7px;
 	border: 0px;
 	padding-left: 5%;
+	outline: none;
 }
 #cssbtn{
 	display: flex;
